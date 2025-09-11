@@ -35,7 +35,7 @@ Repeat for each chosen source dataset to produce single-source STKGs.
 Optionally, combine samples from multiple sources into mixed STKGs of varying sizes for robustness testing.
 
 
-## Usage of runnable main notebook file:
+## Usage of runnable main notebook:
 ***************************************************************************************************************************************************
 Although all datasets are video-based, the structure of Something-something dataset differs from HMDB, Kinetics and UCF datasets. For this reason, we updated some hyperparameters according to the data so that our model can work with the Something-something dataset without disrupting the structure of the model. 
 
