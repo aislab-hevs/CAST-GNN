@@ -1,7 +1,7 @@
-## Generating Spatio-Temporal Knowledge Graphs (STKGs) from Video
+## Generating  Dataset
 *********************************************************************************************************************************
 
-We derive STKGs by converting each video into a graph whose nodes represent detected objects and whose edges encode both spatial proximity and temporal continuity. This structured representation enables downstream GNN-based reasoning to capture complex object–action dynamics. You can see the details of STKGs creation process in this work [1].
+We derive Spatio-Temporal Knowledge Graphs (STKGs) by converting each video into a graph whose nodes represent detected objects and whose edges encode both spatial proximity and temporal continuity. This structured representation enables downstream GNN-based reasoning to capture complex object–action dynamics. You can see the details of STKGs creation process in this work [1].
 
 Datasets: Any annotated video collection (e.g., HMDB-51 [3], UCF-101 [4], Kinetics-400 [5], Something-Something [2]).
 Object Detector: A pretrained model (e.g., Faster-R-CNN) for per-frame object bounding boxes.
